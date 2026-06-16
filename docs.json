@@ -9,7 +9,7 @@
   },
   "favicon": "/images/favicon.png",
   "logo": {
-    "light": "/images/logo.png",
+    "light": "/images/setmos-logo-light.png",
     "dark": "/images/setmos-logo-wordmark.png"
   },
   "navigation": {
