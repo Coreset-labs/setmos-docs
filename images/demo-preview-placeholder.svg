@@ -1,0 +1,32 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="80" y="64" width="1120" height="592" rx="18" fill="#FFFFFF" stroke="#DCE4EE"/>
+  <rect x="112" y="104" width="96" height="18" rx="4" fill="#DCE4EE"/>
+  <rect x="112" y="156" width="420" height="46" rx="6" fill="#101725"/>
+  <rect x="112" y="226" width="560" height="16" rx="4" fill="#8B95A3"/>
+  <rect x="112" y="260" width="360" height="16" rx="4" fill="#C9D4E2"/>
+  <rect x="780" y="122" width="340" height="164" rx="10" fill="#F8FBFF" stroke="#DCE4EE"/>
+  <rect x="812" y="156" width="108" height="14" rx="4" fill="#9B7A2F"/>
+  <rect x="812" y="190" width="180" height="48" rx="6" fill="#315F8D"/>
+  <rect x="112" y="346" width="1008" height="56" rx="8" fill="#FFFFFF" stroke="#DCE4EE"/>
+  <rect x="112" y="418" width="1008" height="56" rx="8" fill="#FFFFFF" stroke="#DCE4EE"/>
+  <rect x="112" y="490" width="1008" height="56" rx="8" fill="#FFFFFF" stroke="#DCE4EE"/>
+  <rect x="112" y="562" width="1008" height="56" rx="8" fill="#FFFFFF" stroke="#DCE4EE"/>
+  <circle cx="146" cy="374" r="10" fill="#315F8D"/>
+  <circle cx="146" cy="446" r="10" fill="#315F8D"/>
+  <circle cx="146" cy="518" r="10" fill="#315F8D"/>
+  <circle cx="146" cy="590" r="10" fill="#315F8D"/>
+  <rect x="180" y="364" width="88" height="18" rx="4" fill="#101725"/>
+  <rect x="180" y="436" width="88" height="18" rx="4" fill="#101725"/>
+  <rect x="180" y="508" width="88" height="18" rx="4" fill="#101725"/>
+  <rect x="180" y="580" width="88" height="18" rx="4" fill="#101725"/>
+  <rect x="720" y="364" width="120" height="18" rx="4" fill="#8B95A3"/>
+  <rect x="720" y="436" width="120" height="18" rx="4" fill="#8B95A3"/>
+  <rect x="720" y="508" width="120" height="18" rx="4" fill="#8B95A3"/>
+  <rect x="720" y="580" width="120" height="18" rx="4" fill="#8B95A3"/>
+  <rect x="1000" y="364" width="72" height="18" rx="4" fill="#315F8D"/>
+  <rect x="1000" y="436" width="72" height="18" rx="4" fill="#315F8D"/>
+  <rect x="1000" y="508" width="72" height="18" rx="4" fill="#315F8D"/>
+  <rect x="1000" y="580" width="72" height="18" rx="4" fill="#315F8D"/>
+  <text x="640" y="686" text-anchor="middle" fill="#8B95A3" font-family="Arial, sans-serif" font-size="18">Redacted Setmos dashboard preview</text>
+</svg>

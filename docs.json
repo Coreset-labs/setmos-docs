@@ -1,0 +1,67 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Setmos Docs",
+  "colors": {
+    "primary": "#315F8D",
+    "light": "#FFFFFF",
+    "dark": "#101725"
+  },
+  "favicon": "/images/favicon.png",
+  "logo": {
+    "light": "/images/logo.png",
+    "dark": "/images/setmos-logo-wordmark.png"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Start here",
+        "pages": [
+          "index",
+          "eligibility",
+          "how-to-invest"
+        ]
+      },
+      {
+        "group": "Products",
+        "pages": [
+          "products/launch-products"
+        ]
+      },
+      {
+        "group": "Trust & legal",
+        "pages": [
+          "trust-structure",
+          "legal/documents-fees-risks"
+        ]
+      },
+      {
+        "group": "Technical",
+        "pages": [
+          "technical/overview"
+        ]
+      },
+      {
+        "group": "Support",
+        "pages": [
+          "faq"
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Setmos",
+        "href": "https://setmos.org"
+      },
+      {
+        "label": "Request demo access",
+        "href": "https://setmos.org"
+      }
+    ]
+  },
+  "footer": {
+    "socials": {}
+  }
+}

@@ -1,0 +1,38 @@
+---
+title: "Technical Details"
+description: "High-level technical architecture for the Setmos demo and token access model."
+---
+
+The Setmos demo app is designed around a client dashboard, Set tokens on Stellar, USDC settlement, and product-level reporting.
+
+## Current demo model
+
+| Component | Current approach |
+| --- | --- |
+| Network | Stellar |
+| Settlement | USDC |
+| Dashboard | Set options, allocation controls, blended APY, risk mix, and product drawers |
+| Product metrics | APY, price, fund size, network, and settlement fields |
+| Access model | Demo access with future onboarding controls |
+| Transfer controls | Intended wallet policy, allowlisting, sanctions screening, and transfer restrictions |
+
+## Data model
+
+The demo dashboard may surface product metrics from public issuer, protocol, market, or reporting sources. For a production environment, Setmos should use a backend reporting layer so the frontend receives normalized Setmos metrics rather than directly exposing provider endpoints.
+
+## Token model
+
+Native product tokens remain under issuer or product arrangements. Set tokens on Stellar are designed to represent approved access and product exposure under applicable product, custody, compliance, and transfer rules.
+
+## Production considerations
+
+- backend reporting API for Setmos-normalized metrics;
+- provider endpoint privacy;
+- audit logging;
+- wallet allowlists;
+- sanctions and wallet-risk screening;
+- jurisdiction gating;
+- transfer restrictions;
+- admin review workflows;
+- data reconciliation;
+- issuer document sync.
