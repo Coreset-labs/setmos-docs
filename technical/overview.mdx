@@ -1,9 +1,9 @@
 ---
 title: "Technical Details"
-description: "High-level technical architecture for Setmos Set tokens, reporting, settlement, and future interoperability."
+description: "High-level technical architecture for Setmos products, reporting, settlement, and future interoperability."
 ---
 
-Setmos uses the Stellar blockchain as core infrastructure for Set token representation, USDC settlement, wallet controls, and future on-chain utility.
+Setmos uses the Stellar blockchain as core infrastructure for product representation, USDC settlement, wallet controls, and future onchain utility.
 
 ## Current model
 
@@ -11,27 +11,27 @@ Setmos uses the Stellar blockchain as core infrastructure for Set token represen
 | --- | --- |
 | Network | Stellar |
 | Settlement | USDC |
-| Set tokens | Product categories across treasuries, money markets, private credit, liquidity, alternative income, and gold |
+| Products | Categories across treasuries, money markets, private credit, liquidity, alternative income, and gold |
 | Product metrics | Yield, price, fund size, network, settlement, and allocation views |
-| Access model | Onboarding, KYC/AML, sanctions screening, wallet review, and product-level requirements where applicable |
+| Access model | Onboarding, KYC/AML, sanctions screening, wallet review, and product requirements where applicable |
 | Transfer controls | Wallet policy, allowlisting, sanctions screening, and transfer restrictions where applicable |
 
 ## Reporting model
 
-Setmos should use a backend reporting layer so the frontend receives normalized Setmos metrics. This allows product data, market data, NAV/yield inputs, fund size, and status updates to be handled server-side without exposing private provider keys or sensitive endpoints in the browser.
+Setmos should use a backend reporting layer so the frontend receives normalized Setmos metrics. This allows product data, market data, NAV/yield inputs, fund size, and status updates to be handled server side without exposing private provider keys or sensitive endpoints in the browser.
 
 ## Token model
 
-Set tokens are designed as blockchain-native representations of Setmos product categories. Product-level documents may define final rights, obligations, restrictions, liquidity mechanics, custody arrangements, and redemption treatment.
+Setmos assets are designed as blockchain-native representations of real-world asset categories. Product documents may define final rights, obligations, restrictions, liquidity mechanics, custody arrangements, and redemption treatment.
 
 ## Beyond yield
 
-Set tokens are designed to become usable as collateral across selected DeFi venues and protocols, subject to integration and risk review. Future technical work may include interoperability, cross-chain routing, API-based fintech access, lending integrations, and collateral monitoring.
+Setmos assets are designed to become usable as collateral across selected DeFi venues and protocols, subject to integration and risk review. Future technical work may include interoperability, cross chain routing, API based fintech access, lending integrations, and collateral monitoring.
 
 ## Production considerations
 
 - backend reporting API for Setmos-normalized metrics;
-- server-side API keys and provider endpoint privacy;
+- server side API keys and provider endpoint privacy;
 - audit logging;
 - wallet allowlists;
 - sanctions and wallet-risk screening;
