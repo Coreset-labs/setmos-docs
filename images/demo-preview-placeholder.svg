@@ -28,5 +28,5 @@
   <rect x="1000" y="436" width="72" height="18" rx="4" fill="#315F8D"/>
   <rect x="1000" y="508" width="72" height="18" rx="4" fill="#315F8D"/>
   <rect x="1000" y="580" width="72" height="18" rx="4" fill="#315F8D"/>
-  <text x="640" y="686" text-anchor="middle" fill="#8B95A3" font-family="Arial, sans-serif" font-size="18">Redacted Setmos dashboard preview</text>
+  <text x="640" y="686" text-anchor="middle" fill="#8B95A3" font-family="Arial, sans-serif" font-size="18">Redacted Setmos app preview</text>
 </svg>

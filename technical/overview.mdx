@@ -1,33 +1,37 @@
 ---
 title: "Technical Details"
-description: "High-level technical architecture for the Setmos demo and token access model."
+description: "High-level technical architecture for Setmos Set tokens, reporting, settlement, and future interoperability."
 ---
 
-The Setmos demo app is designed around a client dashboard, Set tokens on Stellar, USDC settlement, and product-level reporting.
+Setmos uses the Stellar blockchain as core infrastructure for Set token representation, USDC settlement, wallet controls, and future on-chain utility.
 
-## Current demo model
+## Current model
 
 | Component | Current approach |
 | --- | --- |
 | Network | Stellar |
 | Settlement | USDC |
-| Dashboard | Set options, allocation controls, blended APY, risk mix, and product drawers |
-| Product metrics | APY, price, fund size, network, and settlement fields |
-| Access model | Demo access with future onboarding controls |
-| Transfer controls | Intended wallet policy, allowlisting, sanctions screening, and transfer restrictions |
+| Set tokens | Product categories across treasuries, money markets, private credit, liquidity, alternative income, and gold |
+| Product metrics | Yield, price, fund size, network, settlement, and allocation views |
+| Access model | Onboarding, KYC/AML, sanctions screening, wallet review, and product-level requirements where applicable |
+| Transfer controls | Wallet policy, allowlisting, sanctions screening, and transfer restrictions where applicable |
 
-## Data model
+## Reporting model
 
-The demo dashboard may surface product metrics from public issuer, protocol, market, or reporting sources. For a production environment, Setmos should use a backend reporting layer so the frontend receives normalized Setmos metrics rather than directly exposing provider endpoints.
+Setmos should use a backend reporting layer so the frontend receives normalized Setmos metrics. This allows product data, market data, NAV/yield inputs, fund size, and status updates to be handled server-side without exposing private provider keys or sensitive endpoints in the browser.
 
 ## Token model
 
-Native product tokens remain under issuer or product arrangements. Set tokens on Stellar are designed to represent approved access and product exposure under applicable product, custody, compliance, and transfer rules.
+Set tokens are designed as blockchain-native representations of Setmos product categories. Product-level documents may define final rights, obligations, restrictions, liquidity mechanics, custody arrangements, and redemption treatment.
+
+## Beyond yield
+
+Set tokens are designed to become usable as collateral across selected DeFi venues and protocols, subject to integration and risk review. Future technical work may include interoperability, cross-chain routing, API-based fintech access, lending integrations, and collateral monitoring.
 
 ## Production considerations
 
 - backend reporting API for Setmos-normalized metrics;
-- provider endpoint privacy;
+- server-side API keys and provider endpoint privacy;
 - audit logging;
 - wallet allowlists;
 - sanctions and wallet-risk screening;
@@ -35,4 +39,5 @@ Native product tokens remain under issuer or product arrangements. Set tokens on
 - transfer restrictions;
 - admin review workflows;
 - data reconciliation;
-- issuer document sync.
+- product document sync;
+- DeFi integration risk review.
