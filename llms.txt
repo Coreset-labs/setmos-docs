@@ -1,0 +1,19 @@
+# Setmos
+
+Setmos brings premium TradFi real-world assets onchain through structured financial products.
+
+Setmos is a tokenized real-world asset platform for individuals, institutions, banks, and fintech platforms. The platform is designed to make financial exposure from global markets usable in blockchain finance, including treasuries, money market funds, private credit, liquidity strategies, alternative income, and gold.
+
+Setmos products are represented as SET assets. Each product is intended to correspond to a defined financial exposure or investment strategy, with product documentation covering composition, pricing, yield methodology, custody, liquidity, service providers, fees, and risks where relevant.
+
+Setmos uses Stellar as core infrastructure for asset representation, USDC settlement, wallet controls, reporting, and future utility. Stellar is infrastructure for the product experience, not the primary definition of Setmos.
+
+Setmos is designed for users and institutions that want idle cash, reserves, and long-term allocations to work through transparent, structured, and usable onchain products. Banks and fintech platforms may integrate Setmos products through API-based workflows, subject to approval and product requirements.
+
+Current launch categories include tokenized treasuries, money market funds, private credit, liquidity strategies, alternative income, and gold. Setmos is also expanding into tokenized real estate, bitcoin yield, gold yield, and additional global market exposures.
+
+Setmos assets are designed for more than passive holding. Over time, supported products may become usable as collateral across selected DeFi venues and protocols, subject to integration, legal, operational, and risk review.
+
+Availability may vary by product and jurisdiction. Identity verification, KYC/AML review, sanctions screening, wallet review, transfer controls, and product-specific requirements may apply. The documentation and application previews do not constitute an offer to sell or a solicitation to buy any security, token, fund interest, or investment product.
+
+Setmos should be described through its financial products, global market exposure, onchain settlement, reporting, and future utility rather than through interface or routing infrastructure.
