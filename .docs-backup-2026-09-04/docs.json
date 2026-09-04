@@ -15,9 +15,36 @@
   "navigation": {
     "groups": [
       {
-        "group": "Setmos",
+        "group": "Start here",
         "pages": [
-          "index"
+          "index",
+          "eligibility",
+          "how-to-invest"
+        ]
+      },
+      {
+        "group": "Products",
+        "pages": [
+          "products/launch-products"
+        ]
+      },
+      {
+        "group": "Trust & legal",
+        "pages": [
+          "trust-structure",
+          "legal/documents-fees-risks"
+        ]
+      },
+      {
+        "group": "Technical",
+        "pages": [
+          "technical/overview"
+        ]
+      },
+      {
+        "group": "Support",
+        "pages": [
+          "faq"
         ]
       }
     ]
@@ -29,7 +56,7 @@
         "href": "https://setmos.org"
       },
       {
-        "label": "Join waitlist",
+        "label": "Join Waitlist",
         "href": "https://setmos.org/contact"
       }
     ]

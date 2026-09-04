@@ -1,0 +1,43 @@
+---
+title: "Technical Details"
+description: "Technical architecture for SET products, Stellar infrastructure, USDC settlement, reporting, and future interoperability."
+---
+
+Setmos is built around SET assets on Stellar, USDC settlement, product reporting, and infrastructure designed to support onchain financial products.
+
+## Current model
+
+| Component | Current approach |
+| --- | --- |
+| Network | Stellar |
+| Settlement | USDC |
+| Products | Categories across treasuries, money markets, private credit, liquidity, alternative income, and gold |
+| Product metrics | Yield, price, fund size, network, settlement, and allocation views |
+| Eligibility controls | Onboarding, KYC/AML, sanctions screening, wallet review, and product requirements where applicable |
+| Transfer controls | Wallet policy, allowlisting, sanctions screening, and transfer restrictions where applicable |
+
+## Reporting model
+
+Setmos should use a backend reporting layer so the application receives normalized Setmos metrics. This allows product data, market data, NAV/yield inputs, fund size, and status updates to be handled server side without exposing private data source credentials or sensitive endpoints in the browser.
+
+## Token model
+
+Setmos assets are designed as blockchain-native representations of real-world asset categories. Product documents may define final rights, obligations, restrictions, liquidity mechanics, custody arrangements, and redemption treatment.
+
+## Beyond yield
+
+Setmos assets are designed to become usable as collateral across selected DeFi venues and protocols, subject to integration and risk review. Future technical work may include interoperability, cross-chain routing, API-based fintech integrations, lending integrations, and collateral monitoring.
+
+## Production considerations
+
+- backend reporting API for Setmos-normalized metrics;
+- server side API keys and data source privacy;
+- audit logging;
+- wallet allowlists;
+- sanctions and wallet-risk screening;
+- jurisdiction gating;
+- transfer restrictions;
+- admin review workflows;
+- data reconciliation;
+- product document sync;
+- DeFi integration risk review.
